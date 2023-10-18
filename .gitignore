@@ -1,0 +1,5 @@
+CONNECTION_STRING="postgresql://postgres:babatise1995gab@localhost:5432/septa"
+# .gitignore
+./node_modules/
+../node_modules/
+

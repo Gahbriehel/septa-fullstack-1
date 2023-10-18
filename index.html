@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Items</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="all">
+      <div class="formLeft">
+        <div class="myform">
+          <!-- <h1 class="greeting">Bienvenidos amigos</h1> -->
+          <h2 id="items">Add items</h2>
+          <form id="itemsForm">
+            <label for="name">Name</label> <br />
+            <input type="text" id="name" placeholder="Michael" /> <br /><br />
+            <label for="weight">Weight</label> <br />
+            <input type="text" placeholder="56 pounds" id="weight" />
+            <br /><br />
+            <label for="price">Price</label> <br />
+            <input type="text" placeholder="₦100,000" id="price" /><br /><br />
+            <input type="submit" id="submit" value="Submit" />
+          </form>
+        </div>
+        <div class="allItems">
+          <table class="table" cellspacing="0">
+            <thead>
+              <tr>
+                <th class="tableHead">Name</th>
+                <th class="tableHead">Weight</th>
+                <th class="tableHead">Price</th>
+                <td class="delClm"></td>
+                <td class="delClm"></td>
+              </tr>
+            </thead>
+            <tbody id="data"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="formRight">
+        <div class="formImage">
+          <img src="/Images/FORM (1).png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

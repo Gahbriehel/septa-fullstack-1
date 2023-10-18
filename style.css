@@ -1,0 +1,85 @@
+body {
+  background-color: white;
+}
+.greeting {
+  font-size: small;
+}
+.formLeft {
+  display: inline-block;
+  width: 32rem;
+  height: 42rem;
+  margin-right: 1rem;
+}
+.formRight {
+  /* padding-left: 10rem; */
+  display: inline-block;
+  width: 30rem;
+  margin-left: 7rem;
+  justify-content: center;
+}
+
+.formImage {
+  height: 30rem;
+  width: 25rem;
+}
+.all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.myform,
+#items {
+  padding-left: 2rem;
+  font-family: "Mooli", sans-serif;
+}
+
+#name #weight #price {
+  width: 20rem;
+  height: 2rem;
+}
+
+#submit {
+  background-color: black;
+  color: white;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 4px;
+}
+
+.allItems {
+  padding-left: 2rem;
+  margin-top: 4rem;
+}
+
+.tableHead {
+  color: white;
+  background-color: rgb(126, 167, 213);
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th {
+  width: 150px;
+  text-align: left;
+  padding: 5px;
+}
+
+#data {
+  background-color: white;
+}
+
+.editClm {
+  width: 20px;
+  background-color: black;
+}
+.delClm {
+  width: 2px;
+  background-color: rgb(126, 167, 213);
+}
+
+/* @media screen and (max-width: 1024px) {
+  .all {
+    grid-template-columns: 40% 54%;
+    gap: 6%;
+  }
+} */
